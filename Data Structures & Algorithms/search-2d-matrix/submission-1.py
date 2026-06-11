@@ -1,3 +1,5 @@
+# Time complexity - O(log m + log n)
+# Space complexity: O(1)
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if target > matrix[-1][-1] or target < matrix[0][0]:
