@@ -1,3 +1,6 @@
+# Brute force
+# Time complexity - O(n^2)
+# Space complexity: O(1)
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
         for i in range(len(nums)):
